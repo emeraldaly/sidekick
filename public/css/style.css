@@ -1,0 +1,104 @@
+@font-face{
+  font-family: 'Nickainley-Normal';
+  src: url('Nickainley-Normal.otf');
+}
+
+@font-face{
+  font-family: 'Sunday-Regular';
+  src:  url('Sunday-Regular.otf'),
+        url('Sunday-Regular.ttf');
+}
+
+a { font-family: 'Josefin Slab', Arial, sans-serif; font-weight: bold;}
+
+/* Coustard Josefin Slab Cormorant Garamond*/
+
+h1 { font-family: 'Cambria' }
+
+h2 { font-family: 'Cambria' }
+
+h3 { font-family: 'Nickainley-Normal', Arial, sans-serif; }
+
+h4 { font-family: 'Cambria' }
+
+h5 { font-family: 'Cambria' }
+
+ul {
+
+    /*border-top: 1px solid #000000;*/
+    /*border-bottom: 1px solid #000000;*/
+    background-color: white;
+}
+
+
+.nav-item-2 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.main {
+    margin-bottom: 30px; 
+}
+
+
+.logo-block {
+  max-width:150px;
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+.slider-block {
+ 
+  max-height: 100vh;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding: 0px;
+  width: 40%; 
+  
+}
+
+img {
+
+  max-width:100%
+
+}
+
+.wrapper {
+
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+  
+}
+.push {
+
+  height: 50px;
+
+}
+
+  /* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
+
