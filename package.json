@@ -1,0 +1,20 @@
+{
+  "name": "sidekick",
+  "version": "1.0.0",
+  "description": "site to meet up for impromptu activities",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emeraldaly/sidekick.git"
+  },
+  "author": "Alyson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emeraldaly/sidekick/issues"
+  },
+  "homepage": "https://github.com/emeraldaly/sidekick#readme"
+}
